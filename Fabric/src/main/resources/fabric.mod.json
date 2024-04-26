@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "${modId}",
+  "version": "${version}",
+
+  "name": "${modName}",
+  "description": "${modDescription}",
+  "authors": [
+    "${modAuthor}"
+  ],
+  "contact": {
+    "homepage": "${websiteUrl}",
+    "sources": "${githubUrl}"
+  },
+
+  "license": "The MIT License (MIT)",
+  "icon": "ctl-icon.png",
+
+  "environment": "*",
+
+  "depends": {
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "fabric-api": ">=${fabricApiVersion}",
+    "java": ">=${modJavaVersion}"
+  }
+}
